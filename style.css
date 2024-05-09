@@ -75,12 +75,12 @@ ul li::before{
     top: 12px;
     left: 8px;
 }
-ul li .checked{
+ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
-ul li .checked::before{
-    background-image: url(images/unchecked.png);
+ul li.checked::before{
+    background-image: url(images/checked.png);
 }
 ul li span{
     position: absolute;
